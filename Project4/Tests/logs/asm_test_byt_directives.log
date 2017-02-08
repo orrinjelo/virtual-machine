@@ -1,0 +1,64 @@
+Debug mode turned on.
+[0;34m[VM] Initializing virtual machine.[0m
+[0;34m[Assembler]Assembler Init[0m
+[0;34m[Assembler]Assembler Init Ended.[0m
+[0;34m[VM] Loading file and sending to the assembler.[0m
+[0;34m[Assembler]Loaded file temp.asm[0m
+[0;34m[Assembler]Now entering first pass.[0m
+[0;34m[Assembler]Tokenizing string: LETTER    .BYT    65[0m
+[0;34m[Assembler]Starting to synthesize.[0m
+[0;34m[Assembler]First: LETTER; Second: .BYT; Third: 65[0m
+[0;34m[Assembler]First is a label.[0m
+[0;34m[Assembler]Second is a directive.[0m
+[0;34m[Assembler]Tokenizing string:    ARR       .BYT    65[0m
+[0;34m[Assembler]Starting to synthesize.[0m
+[0;34m[Assembler]First: ARR; Second: .BYT; Third: 65[0m
+[0;34m[Assembler]First is a label.[0m
+[0;34m[Assembler]Second is a directive.[0m
+[0;34m[Assembler]Tokenizing string:              .BYT    66[0m
+[0;34m[Assembler]Starting to synthesize.[0m
+[0;34m[Assembler]First: .BYT; Second: 66; Third: [0m
+[0;34m[Assembler]First is a directive.[0m
+[0;34m[Assembler]Tokenizing string:              .BYT    67[0m
+[0;34m[Assembler]Starting to synthesize.[0m
+[0;34m[Assembler]First: .BYT; Second: 67; Third: [0m
+[0;34m[Assembler]First is a directive.[0m
+[0;34m[Assembler]Tokenizing string:               TRP    0[0m
+[0;34m[Assembler]Starting to synthesize.[0m
+[0;34m[Assembler]First: TRP; Second: 0; Third: [0m
+[0;34m[Assembler]First is an instruction.[0m
+[0;34m[Assembler]Now entering second pass.[0m
+[0;34m[Assembler]Tokenizing string: LETTER    .BYT    65[0m
+[0;34m[Assembler]Generating byte code.[0m
+[0;34m[Assembler]First is a label.[0m
+[0;34m[Assembler]Parsing second.[0m
+[0;34m[Assembler]Second is a directive.[0m
+[0;34m[Assembler]It is a byte.[0m
+[0;34m[Assembler]Tokenizing string:    ARR       .BYT    65[0m
+[0;34m[Assembler]Generating byte code.[0m
+[0;34m[Assembler]First is a label.[0m
+[0;34m[Assembler]Parsing second.[0m
+[0;34m[Assembler]Second is a directive.[0m
+[0;34m[Assembler]It is a byte.[0m
+[0;34m[Assembler]Tokenizing string:              .BYT    66[0m
+[0;34m[Assembler]Generating byte code.[0m
+[0;34m[Assembler]First is a directive.[0m
+[0;34m[Assembler]It is a byte.[0m
+[0;34m[Assembler]Tokenizing string:              .BYT    67[0m
+[0;34m[Assembler]Generating byte code.[0m
+[0;34m[Assembler]First is a directive.[0m
+[0;34m[Assembler]It is a byte.[0m
+[0;34m[Assembler]Tokenizing string:               TRP    0[0m
+[0;34m[Assembler]Generating byte code.[0m
+[0;34m[Assembler]First is an instruction.[0m
+[0;34m[Assembler]Parsing second.[0m
+[0;34m[Assembler]Second is an immediate.[0m
+[0;34m[Assembler]Parsing third.[0m
+[0;34m[VM] Assembler finished, running machine.[0m
+[0;34m[VM] Fetching instruction.[0m
+[0;34m[VM] VirtualMachine::fetch(): entered.[0m
+[0;34m[VM] VirtualMachine::fetch(); PC = 4[0m
+[0;34m[VM] VirtualMachine::fetch(); ir.opCode: 0; ir.op1: 0; ir.op2: 0[0m
+[0;34m[VM] Decoding instruction.[0m
+[0;34m[VM] If you are reading this, the instruction was successfully executed.[0m
+[0;34m[VM] [1;33mSuccessful execution.[0m[0m

@@ -1,0 +1,10 @@
+JMP START
+
+OVERFLOW   TRP  0
+UNDERFLOW  TRP  0
+
+START MOV  R0  FP
+      MOV  R1  SP
+      MOV  R2  SB
+      MOV  R3  SL
+      TRP  0
